@@ -1,0 +1,1 @@
+INSERT INTO empleados VALUES ('Merari','Licea','Zenteno','iuaesdh',32312,'423423',1,'Gerente',1,'mera@gmail.com','Mera123.',4560.00,12.00,'2024-09-05',NULL,'Activo')

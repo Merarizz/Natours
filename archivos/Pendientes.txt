@@ -1,0 +1,101 @@
+--------------------FALTANTES--------------------
+            TODO MODIFICAR DATABASEUTUL PARA LAS COLONIAS QUE NO TIENEN CIUDAD ASOCIADA
+
+            TODO ARREGLAR EL FONDO DE TOD0S MENOS EMPLEADOS (logotipo)
+|           TODO agregar lo de paises a clientes y prospectos
+            TODO agregar la funcionalidad del codigo postal
+            todo modificar empleados
+            todo modificar clientes   el pais no se actualiza
+            todo modificra prospectos
+            todo modificar servicios
+            todo modificar facturas
+
+            todo Arreglar el foco con tab el cmb de colonia en altas y cambios
+
+            TODO el combo de pais de queda pegado en todos
+            TODO validar fechas en empleados
+            todo validar fechas en servicios
+            TODO Hacer la carga de cp a la bd
+            Modificar Natours_creacion.sql para que se ejecute sin entrarar a sql
+
+--------------------ESTADISTICAS--------------------
+            todo Empleados - "Puesto", "Estatus", "Sueldo", "Comision" (fecha)
+            todo Clientes - Pais, ventas
+            todo Prospectos - Pais
+            todo Servicios - ["Tipo de Servicio", "Sub-Tipo de Servicio", "Pais", "Costo", "Comision", "Fecha"]
+            todo facturas - ["Status", "Empleado", "Cliente", "Total", "Fecha"]
+            Ventas - ["Total", "Servicios", "Fecha"]
+
+             TODO  -ventana- incrementar el tamaño
+            TODO  mover el  cp de lugar en empelados, clientes y prospectos
+
+                TODO empleados- agregar campo sueldo, comisiones,
+                TODO agregar filtro en reportes basado en el sueldo, ventas, estatus, fechas laborales, comisiones
+                        TODO agregar estado de los empleados
+                        TODO agregar fecha de inicio y fin laboral
+--------------------EMPLEADOS--------------------
+
+            TODO clientes- filtro en reportes
+                      agregar filtro de venta, ciudad, estado
+
+            TODO prospectos- filtro en reportes
+                      agregar filtro de ciudad, estado
+            TODO servicios- agregar paquetes (gradacion, trabajo, lunamielero, all incluido, )
+                        TODO agregar atracciones,agregar traslados
+                       TODO  quitar campos especiales, vuelelo+hotel....
+                        TODO agregar campo, fecha inicio, fecha fin,
+                        TODO comision, agregar campo restricciones
+                        TODO agregar filtro subtipo de paquete , ciudad estado país
+                        TODO agregar campo locación(ciudad, estado, país)
+            TODO facturas- agregar filtro de  fecha, total, por servicio, empleado, cliente,
+            estadisticas-hacerla 
+
+
+
+--------------------VALIDACIONES--------------------
+                    todo revisar los permisos de acceso
+             TODO eliminar el frame cuando se cambie de sección
+             TODO oooo cuando se da de baja (todos) eliminar el nombre del combo
+             TODO VALIDAR tod0 el sisetma cuando no hay datos
+             TODO contraseña visible/invisible
+             todo contraseña con requisitos(min 8 caracteres, max 10, 1 caracter especial ".,_-&$%/#@+*" y 1 numero)
+             TODO mover botones todos a su frame de botones en servicios
+
+--------------------NICETOHAVE--------------------
+
+            cambiar de color al boton cuando este seleccionado
+
+
+
+--------------------INSTAALCION--------------------
+            Ver como instalar mysql desde el instalador
+            crear bd en ejecución (código o script)
+            crear usuario administadror
+            *que las imagenes se vean*
+--------------------PASOS--------------------
+1- INSTALAR PYTHON(MISMA VERSION)
+
+2- INSTALAR SQL (MISMA VERSION)
+3- COPIAR LA CARPETA DEL CODIGO A UNA CARPETA LOCAL
+4- IMPORTAR LA BDD A MYSQL
+5-HACER PRUEBAS
+
+(CREAR UN INSTALADOR)
+
+--------------------NIVELES--------------------
+
+nivel 1- todo tiene acceso a todoo
+nivel 2- todo acceso a clientes (A,C,R)
+        todo empleados N0
+        todo servicios todo9o
+        todo toprospectos (A,C,R)
+        todo facturas (A,R)
+        todo estadisticas N0
+
+nivel 3- empleados N0
+            todo prospectos (A,C,R)
+            todo clientes (A,C,R)
+            todo servicios (A,C,R)
+            todo fcaturas (R)
+            todo estadisticas N0
+
